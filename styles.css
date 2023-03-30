@@ -261,7 +261,7 @@ img {
 #studentSpat,
 #idSpat,
 #gradeSpat {
-    color: purple;
+    color: #2462e8;
     text-align: left;
     padding-left: 10px;
     font-weight: 600;
@@ -286,6 +286,6 @@ img {
 #g3s2,
 #g4s1,
 #g4s2 {
-    color: red;
+    color: black;
     padding-left: 10px;
 }

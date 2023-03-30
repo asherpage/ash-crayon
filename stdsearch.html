@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link   rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="header-top">
+            <p>Student Shadow</p>
+        </div>
+        <div class="header-body">
+            <div><a href=""><img class="logo" src="./ss_new-removebg-preview.png"></a></div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="service.html">Services</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </div>
+            <div class="header-tags">
+                <a href="index.html">Home</a>
+                <a href="service.html">Services</a>
+                <a href="support.html">Support</a>
+            </div>
+        </div>
+    </nav>
+        <div class="lookUp"><input type="searchbar" id="srch" placeholder="Student ID"> <button
+                onclick="search(document.getElementById('srch').value)">search student</button></div>
+                <br>
+                <br>
+        
+        <div class="bc">
+            <table style="width: 80%" class="studentTable">
+                <tr class="rowers">
+                    <td class="c4" id="studentSpat">&nbsp;<br>&nbsp;</td>
+                    <td id="idSpat"></td>
+                    <td id="gradeSpat"></td>
+                </tr>
+                <tr class="topTable">
+                    <th>classes</th>
+                    <th>semester 1</th>
+                    <th>semester 2</th>
+                </tr>
+                <tr class="rowers">
+                    <td class="c1" id="classOne"></td>
+                    <td id="g1s1">&nbsp;<br>&nbsp;</td>
+                    <td id="g1s2"></td>
+                </tr>
+                <tr class="rowers">
+                    <td class="c2" id="classTwo"></td>
+                    <td id="g2s1">&nbsp;<br>&nbsp;</td>
+                    <td id="g2s2"> </td>
+                </tr>
+                <tr class="rowers">
+                    <td class="c3" id="classThree"></td>
+                    <td id="g3s1">&nbsp;<br>&nbsp;</td>
+                    <td id="g3s2"> </td>
+                </tr>
+                <tr class="rowers">
+                    <td class="c4" id="classFour"></td>
+                    <td id="g4s1">&nbsp;<br>&nbsp;</td>
+                    <td id="g4s2"> </td>
+                <tr class="rowers">
+                </tr>
+            </table>
+        </div>
+        <script src="./admin.js"></script>
+</body>
+</html>
