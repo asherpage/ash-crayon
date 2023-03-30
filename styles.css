@@ -289,3 +289,137 @@ img {
     color: black;
     padding-left: 10px;
 }
+
+#serviceTitle {
+    text-decoration: underline;
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "orbitron";
+}
+
+.service {
+    font-family: "orbitron";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+}
+
+.serviceContainer {
+    margin-top: 8rem;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.serviceContainer .serviceBox {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    width: 320px;
+    color: white;
+    background-color: black;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+}
+
+.serviceContainer .serviceBox:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 82, 188);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.serviceContainer .serviceBox:hover:before {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.serviceContainer .serviceBox h2 {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.serviceContainer .serviceBox:hover h2 {
+    opacity: 1;
+    transform: translateY(-40px);
+    color: white;
+}
+
+.serviceContainer .serviceBox h3 {
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+}
+
+.serviceContainer .serviceBox p {
+    position: relative;
+    font-size: 1.25em;
+    z-index: 2;
+}
+
+.serviceContainer .serviceBox:hover h3,
+.serviceContainer .serviceBox:hover p {
+    color: white;
+}
+
+.serviceContact {
+    color: black;
+    text-decoration: none;
+}
+
+.serviceContact {
+    color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    font-family: "orbitron";
+    text-align: center;
+}
+
+.serviceContact h1 {
+    font-size: 2rem;
+}
+
+.serviceContact p {
+    font-size: 1rem;
+}
+
+.serviceContact button {
+    padding: 16px;
+    border: 5px solid white;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: black;
+}
+
+.serviceContact button:hover {
+    background-color: rgb(33, 82, 188);
+    color: lightblue;
+    border-color: lightblue;
+}
