@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>StudentShadow | Home </title>
+    <title>student</title>
 </head>
 <body>
     <nav>
@@ -29,11 +29,29 @@
             </div>
         </div>
     </nav>
-    <div class="mainButtons">
-    <a href="./student.html"><div class="studentLog"></div></a>
-    <a href="./admin.html"><div class="adminLog"></div></a>
-
-    </div>
-
+    <main>
+        <div class="inputPage">
+            <div class="inputBorder">
+                <h1 class="slp"> Student Login Page</h1>
+                <form id="login" method="get" action="login.php">
+                    <strong>User Name</strong>
+                    <input type="text" name="Uname" id="username" placeholder="Username">
+                    <br><br>
+                    <label><strong>Password</strong></label>
+                    <input type="Password" name="Pass" id="password" placeholder="Password">
+                    <br><br>
+                    <input class="sub" type="button" name="log" id="log" onclick="getInfo()" value="Log In">
+                    <br><br>
+                    <div class="wrongLogin"><label id="print"> </label></div>
+                    <br>
+                    <a href="./register.html"><label>Register here</label></a>
+                    <br><br>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./script.js"></script>
+    
 </body>
 </html>
