@@ -61,7 +61,7 @@ function grab1(){
 	console.log("hello")
 }
 const data =[
-	{studentId:1 , firstName:"John",lastName:"Doe",age:"14",grade: "9th",classOne:"Algebra 1-2H",classTwo:"Biology",classThree:"English 1-2H",classFour:"P.E",g1s1:"87%",g2s1:"91%",g3s1:"72%",g4s1:"96%"},
+	{studentId:1 , firstName:"John",lastName:"Doe",age:"14",grade: "9th",classOne:"Algebra 1-2H",classTwo:"Biology",classThree:"English 1-2H",classFour:"P.E",g1s1:"87%",g2s1:"91%",g3s1:"78%",g4s1:"96%"},
 
 {studentId:2 ,firstName:"Merik", lastName:"Kuhn", age: "17",grade: "11th",classOne:"English 5-6",classTwo:"US History",classThree:"Triginometry",classFour:"Art",g1s1:"",g2s1:"",g3s1:"",g4s1:""},
 
@@ -71,7 +71,7 @@ const data =[
 
 {studentId:5 ,firstName:"Anthony", lastName:"Lucas", age: "16",grade: "10th",classOne:"Earth Science",classTwo:"Geometry H",classThree:"English 3-4",classFour:"",g1s1:"",g2s1:"",g3s1:"",g4s1:""},
 
-{studentId:6 ,firstName:"Jordan", lastName:"Reed", age: "16",grade: "10th",classOne:"Geometry",classTwo:"",classThree:"",classFour:"",g1s1:"",g2s1:"",g3s1:"",g4s1:""},
+{studentId:6 ,firstName:"Jordan", lastName:"Reed", age: "16",grade: "10th",classOne:"Geometry",classTwo:"ELA 3-4",classThree:"Chemisty",classFour:"Spanish 101",g1s1:"90%",g2s1:"82%",g3s1:"94%",g4s1:"81%"},
 
 {studentId:7 ,firstName:"Kyle", lastName:"Smith", age: "15",grade: "9th",classOne:"Spanish 1-2",classTwo:"",classThree:"",classFour:"",g1s1:"",g2s1:"",g3s1:"",g4s1:""},
 

@@ -97,8 +97,9 @@ nav .header-top {
 .studentLog{
     display: flex;
     align-items: center;
+                    flex-direction: column;
     justify-content: center;
-    font-size: 10rem;
+    font-size: 2vw;
     border: 2px solid #2462e8;
     width: 25vw;
     height: 30vw;
@@ -108,7 +109,8 @@ nav .header-top {
 }
 .adminLog{
     display: flex;
-    font-size: 10rem;
+    flex-direction: column;
+    font-size: 2vw;
     align-items: center;
     justify-content: center;
     border: 2px solid #2462e8;
@@ -430,4 +432,8 @@ img {
     background-color: rgb(33, 82, 188);
     color: lightblue;
     border-color: lightblue;
+}
+i{
+    color: #343434;
+        font-size: 10rem;
 }
